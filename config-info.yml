@@ -8,4 +8,5 @@
 
     - name: 'InspireMe'
       git: 'git://github.com/leytzher/siriproxy-InspireMe.git'
+      host: 'your SiriProxyIP address'
  
