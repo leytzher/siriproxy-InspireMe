@@ -26,7 +26,7 @@ class SiriProxy::Plugin::InspireMe < SiriProxy::Plugin
     
   end
   
-  listen_for /Inspire me/i do
+  listen_for /inspire me/i do
     lines = IO.readlines(self.phrase_file)
     rl = rand(lines.count-1)
     say lines[rl]
