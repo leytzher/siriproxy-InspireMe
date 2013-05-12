@@ -6,5 +6,6 @@
 #         them in SiriProxy's ~/.siriproxy/config.yml
 ############################################
 
-    - name: 'iJokes'
+    - name: 'InspireMe'
       git: 'git://github.com/leytzher/siriproxy-InspireMe.git'
+ 
