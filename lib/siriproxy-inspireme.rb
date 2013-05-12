@@ -7,7 +7,7 @@ require 'json'
 # Remember to add other plugins to the "config.yml" file if you create them!
 ######
 
-class SiriProxy::Plugin::InspireMe < SiriProxy::Plugin
+class SiriProxy::Plugin::siriproxy-InspireMe < SiriProxy::Plugin
   attr_accessor :phrase_file
   
   def initialize(config = {})
